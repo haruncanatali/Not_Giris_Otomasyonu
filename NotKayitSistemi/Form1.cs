@@ -74,6 +74,7 @@ namespace NotKayitSistemi
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            MessageBox.Show("Atatürk Üniversitesi öğrenci not giriş sistemine hoşgeldiniz.", "Karşılama Mesajı", MessageBoxButtons., MessageBoxIcon.Information);
             egitmenChck.Checked = true;
         }
 
